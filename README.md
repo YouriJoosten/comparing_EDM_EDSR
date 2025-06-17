@@ -7,7 +7,7 @@ It contains the pytorch implementation of:
 - The EDM model by Karras et al. (2022). https://arxiv.org/abs/2206.00364
 - The EDSR model by Lim et al. (2017). https://arxiv.org/abs/1707.02921
 
-It also contains the script for the comparative pipeline (comparative_pipeline), this script contains functions for loading and preprocessing data, generating metrics and plotting figures.
+It also contains the script for the comparative pipeline (main_comparative_pipeline.py), this script contains functions for loading and preprocessing data, generating metrics and plotting figures.
 The denoising implementation of EDM can be found in the Inference.py file, which is based on the generate.py file by Karras et al.(2022). 
 
 The dataset and the trained model can be found and downloaded on this [google drive](https://drive.google.com/drive/folders/1EBDqZnk6EeHSiUhh-l2gkaVr_J9ZUXn3?usp=sharing).
