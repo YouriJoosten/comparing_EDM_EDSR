@@ -12,7 +12,7 @@ The denoising implementation of EDM can be found in the Inference.py file, which
 
 The dataset and the trained model can be found and downloaded on this [google drive](https://drive.google.com/drive/folders/1EBDqZnk6EeHSiUhh-l2gkaVr_J9ZUXn3?usp=sharing).
 
-# Abstract:
+# Abstract
 In this paper the effectiveness of Diffusion-based and Convolutional Neural Network
 (CNN) based image denoising are compared in their ability to improve classification
 performance and image restoration. The Elucidated Diffusion model (EDM) and the
