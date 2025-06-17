@@ -2,7 +2,15 @@
 # A comparative study between CNN and Diffusion Models.
 Youri Joosten
 
-This repository is the pytorch implementation of the research for my bachelor thesis.
+This repository contains the source code for my bachelor thesis.
+It contains the pytorch implementation of:
+- The EDM model by Karras et al. (2022). https://arxiv.org/abs/2206.00364
+- The EDSR model by Lim et al. (2017). https://arxiv.org/abs/1707.02921
+
+It also contains the script for the comparative pipeline (comparative_pipeline), this script contains functions for loading and preprocessing data, generating metrics and plotting figures.
+The denoising implementation of EDM can be found in the Inference.py file, which is based on the generate.py file by Karras et al.(2022). 
+
+The dataset and the trained model can be found and downloaded on this [google drive](https://drive.google.com/drive/folders/1EBDqZnk6EeHSiUhh-l2gkaVr_J9ZUXn3?usp=sharing).
 
 # Abstract:
 In this paper the effectiveness of Diffusion-based and Convolutional Neural Network
@@ -21,11 +29,3 @@ EDM, using 30 diffusion steps, scores a classification accuracy of only 4.78%, a
 PSNR score 6.9220, an average SSIM value of 0.2481 and takes 16.10ms to denoise an
 image.
 
-
-In this repository the source code for generating the results can be found. 
-It contains the pytorch implementation of:
-- The EDM model by Karras et al. (2022). https://arxiv.org/abs/2206.00364
-- The EDSR model by Lim et al. (2017). https://arxiv.org/abs/1707.02921
-
-It also contains the script for the comparative pipeline (comparative_pipeline), this script contains functions for loading and preprocessing data, generating metrics and plotting figures.
-The denoising implementation of EDM can be found in the Inference.py file, which is based on the generate.py file by Karras et al.(2022). 
