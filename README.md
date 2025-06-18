@@ -12,6 +12,12 @@ The denoising implementation of EDM can be found in the Inference.py file, which
 
 The dataset and the trained model can be found and downloaded on this [google drive](https://drive.google.com/drive/folders/1EBDqZnk6EeHSiUhh-l2gkaVr_J9ZUXn3?usp=sharing).
 
+## Included Repositories
+
+This repository includes code from the official EDM implementation by Karras et al. (https://github.com/NVlabs/edm) and from the official EDSR implementation by Lim et al. (https://github.com/sanghyun-son/EDSR-PyTorch) , used for the denoising models.
+
+All rights and licenses for that code remain with the original authors. See the `edm/` and 'EDSR-PyTorch/' directory for details.
+
 # Abstract
 In this paper the effectiveness of Diffusion-based and Convolutional Neural Network
 (CNN) based image denoising are compared in their ability to improve classification
