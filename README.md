@@ -16,7 +16,7 @@ The dataset and the trained model can be found and downloaded on this [google dr
 
 This repository includes code from the official EDM implementation by Karras et al. (https://github.com/NVlabs/edm) and from the official EDSR implementation by Lim et al. (https://github.com/sanghyun-son/EDSR-PyTorch) , used for the denoising models.
 
-All rights and licenses for that code remain with the original authors. See the `edm/` and 'EDSR-PyTorch/' directory for details.
+All rights and licenses for that code remain with the original authors. See the `edm/` and `EDSR-PyTorch/` directory for details.
 
 # Abstract
 In this paper the effectiveness of Diffusion-based and Convolutional Neural Network
